@@ -1,10 +1,10 @@
-import "./styles.css";
+import Counter from './components/Counter';
 
-export default function App() {
+
+function App() {
   return (
-    <div className="App">
-      <h1>Hello I'm Redux</h1>
-      <h2>State Management Library</h2>
-    </div>
+    <Counter />
   );
 }
+
+export default App;
